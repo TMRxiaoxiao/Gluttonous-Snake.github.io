@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="贪吃蛇js.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+        }
+        body{
+            background:  url("timg (3).jpg")  center;
+        }
+        .zhengti{
+            width: 1202px;
+            height:auto;
+            position: relative;
+            z-index: 9999;
+            margin-top: 30px;
+        }
+        .box{
+            width: 602px;
+            height: 602px;
+            margin:0 auto;
+            box-sizing: border-box;
+            border:1px solid #FFFFFF;
+        }
+        div{
+            width: 30px;
+            height: 30px;
+            /*border:1px solid #000000;*/
+            box-sizing: border-box;
+            float: left;
+            z-index: 999;
+        }
+        .she{
+            width: 30px;
+            height: 30px;
+            background: red;
+            float: left;
+            background:  url("she.png") no-repeat  center;
+            border-radius: 10px;
+        }
+        .food{
+            width: 30px;
+            height: 30px;
+            background: green;
+            float: left;
+            border-radius: 10px;
+            background:  url("013fe95876ec21a801219c772c1b91 (1).gif") no-repeat  center;
+        }
+        #fenshu{
+            width: 300px;
+            height: 100px;
+            border:1px solid #000000;
+            position: absolute;
+            left: 0px;
+            top: -30px;
+            font-size: 60px;
+            color:  #ffac13;
+            text-align: center;
+            line-height: 100px;
+            background:  url("timg (2).jpg") no-repeat  center;
+            font-family:"华文行楷","楷体","微软雅黑";
+        }
+        button{
+            width: 300px;
+            height: 100px;
+            color: #ffac13;
+            background: url("timg (1).jpg");
+            font-size: 60px;
+            font-family: "华文行楷","楷体";
+            border-image: url("timg (4).jpg") ;
+            z-index: 9999999999;
+        }
+        #button1{
+            position: absolute;
+            top: 0;
+            right: 140px;
+
+        }
+        #button2{
+            position: absolute;
+            top: 100px;
+            right: 140px;
+        }
+       #button3{
+            position: absolute;
+            top: 200px;
+            right: 140px;
+        }
+        <img src="013fe95876ec21a801219c772c1b91 (1).gif"/><img src="013fe95876ec21a801219c772c1b91 (1).gif"/></style>
+</head>
+<body>
+<section class="zhengti">
+
+    <section class="box">
+
+    </section>
+    <div id="fenshu">
+        0
+    </div>
+
+</section>
+<button  id="button1">开始游戏</button>
+<button  id="button2">暂停</button>
+<button  id="button3">疯狂模式</button>
+</body>
+</html>
