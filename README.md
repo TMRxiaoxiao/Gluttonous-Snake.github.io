@@ -1,1 +1,1 @@
-https://tmrxiaoxiao.github.io/Gluttonous-Snake.github.io/Gluttonous-Snake.github.io/snake/贪吃蛇构造函数.html
+https://tmrxiaoxiao.github.io/Gluttonous-Snake.github.io/snake/贪吃蛇构造函数.html
